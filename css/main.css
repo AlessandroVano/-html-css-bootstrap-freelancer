@@ -1,3 +1,6 @@
+h2 {
+    text-align: center;
+}
 .header {
     background: rgb(42, 42, 92);
     width: 100%;
@@ -11,12 +14,22 @@
    height: 400px;
    text-align: center;
 }
+
+/* hero main */
 .hero-main {
     text-align: center;
 }
  .block-1 {
     height: 350px;
-    background: chocolate;
-    
+    background: chocolate; 
+}
+
+/* info-section */
+.info-section {
+    background: rgb(35, 187, 123);
+    height: 550px;
+    text-align: center;
+    color: white;
+
 }
 
