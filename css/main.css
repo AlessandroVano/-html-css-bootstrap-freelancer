@@ -9,8 +9,14 @@
 .hero_header {
     background: rgb(35, 187, 123);
    height: 400px;
-   align-items: center;
    text-align: center;
-
+}
+.hero-main {
+    text-align: center;
+}
+ .block-1 {
+    height: 350px;
+    background: chocolate;
+    
 }
 
