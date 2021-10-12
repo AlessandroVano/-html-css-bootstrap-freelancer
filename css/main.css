@@ -1,4 +1,23 @@
 
+/* UTILITIES */
+
+.hero-main {
+    color: white;
+}
+
+hr {
+    height: 10px;
+}
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+
+
 /* HEADER NAVIGATION */
 
 .main-header .site-navbar {
@@ -22,18 +41,24 @@
 }
 
 
-/* .hero_header {
-   height: 400px;
+/* MAIN SECTION */
+
+/* hero-main */
+
+ .hero-main {
    text-align: center;
 }
-.background-2 {
+.bg {
     background-color:  rgb(35, 187, 123);
 }
- */
-/* hero main */
-.hero-main {
-    text-align: center;
+.row img {
+    width: 200px;
 }
+
+/* hero main */
+/* .hero-main {
+    text-align: center;
+} */
  .block-1 {
     height: 350px;
     background: chocolate; 
