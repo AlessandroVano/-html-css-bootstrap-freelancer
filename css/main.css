@@ -102,7 +102,11 @@ h2 {
     text-align: center;
 }
 
- .registration-form input[type="text"],
+.contatti h2 {
+    font-size: 1.8rem;
+}
+
+.registration-form input[type="text"],
 .registration-form input[type="email"],
 .registration-form textarea {
   font-size: 15px;
@@ -112,7 +116,7 @@ h2 {
 } 
 .registration-form input[type="text"],
 .registration-form input[type="email"],
-.registration-form textarea:focus {
+.registration-form textarea {
     border-color: rgb(121, 121, 121);
     box-shadow: none;
 } 
