@@ -55,14 +55,25 @@ h2 {
     width: 200px;
 }
 
-/* hero main */
-/* .hero-main {
+ /* section img */
+
+.section-img {
     text-align: center;
-} */
- .block-1 {
-    height: 350px;
-    background: chocolate; 
+} 
+
+.section-img .container .row h2 {
+    font-size: 1.8rem;
 }
+ .block-1 {
+    height: 220px;
+  
+}
+.block-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 
 /* info-section */
 .background-3 {
