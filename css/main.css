@@ -86,6 +86,7 @@ h2 {
     font-size: 2.4rem;
 }
   /* button */
+
 .site-btn-outline-primary {
     color: rgb(255, 255, 255);
     border: 1px solid currentColor
@@ -100,9 +101,23 @@ h2 {
 .contatti {
     text-align: center;
 }
-.block-2 {
-    width: 200px;
-    height: 250px;
-    background: chartreuse;
-}
 
+ .registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form textarea {
+  font-size: 15px;
+   border: 0; 
+  border-bottom: 1px solid white;
+  
+} 
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form textarea:focus {
+    border-color: rgb(121, 121, 121);
+    box-shadow: none;
+} 
+
+ .start {
+    display: flex;
+    justify-content: flex-start;
+} 
