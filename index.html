@@ -11,32 +11,65 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <div class="container header">
-            <div class="row">
-                <div class="col-10 col-md-7 col-lg-6 ">contenuto 1</div>
-                <div class="col-2 col-md-5 col-lg-6">contenuto 2</div>
+    <header class="main-header">
+        <!-- qui faccio espandere il menù -->
+        <nav class="navbar navbar-expand-md navbar-dark 
+        site-navbar text-uppercase py-4">
+            <div class="container">
+                <!-- BRAND -->
+              <a class="navbar-brand site-brand" href="#">
+                  START BOOTSTRAP
+                </a>
+              <!-- menù hamburger (quello nascosto) -->
+              <button class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+               aria-expanded="false" 
+               aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- main nav container -->
+              <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link color-link" href="#">PORFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color-link" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <!-- hero header -->
-        <div class="container hero_header">
-            <div class="row">
-              <div class="col mt-5">
-                FOTO
-              </div>
-              <div class="col-12 mt-3   ">
-                  <h2>Titolo</h2>
-              </div>
-              <div class="col-12 mt-3">
-                   stellina al centro con due linee  
-              </div>
-              <div class="col-12 mt-3">
-                   testo
-                </div>
-             
-            </div>
-        </div>   
+          </nav>
     </header>
+        <!-- 
+       
+        <section class="background-2">
+            <div class="container hero_header">
+                <div class="row">
+                  <div class="col mt-5">
+                    FOTO
+                  </div>
+                  <div class="col-12 mt-3   ">
+                      <h2>Titolo</h2>
+                  </div>
+                  <div class="col-12 mt-3">
+                       stellina al centro con due linee  
+                  </div>
+                  <div class="col-12 mt-3">
+                       testo
+                    </div>
+                 
+                </div>
+            </div>   
+        </section>
+        -->
+    
     <!-- MAIN SECTION -->
     <main>
          <!-- Hero main -->
@@ -67,14 +100,27 @@
     
          </div>
          <!-- info section -->
-         <div class="container info-section mt-5">
-             <div class="row">
-                 <h2 class="mt-5">Title</h2>
-                 <div class="mb-3">effetto</div>
-             
-             <div class="col-12 mb-5 px-5 col-md-6 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cupiditate ipsum dolorem, repudiandae, voluptatem ipsa iste corrupti obcaecati quaerat distinctio impedit natus repellendus corporis quo maiores et facere molestias dicta? </div>
-             <div class="col-12 mb-5 px-5 col-md-6 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cupiditate ipsum dolorem, repudiandae, voluptatem ipsa iste corrupti obcaecati quaerat distinctio impedit natus repellendus corporis quo maiores et facere molestias dicta?</div>
+         <section class="background-3">
+            <div class="container info-section mt-5">
+                <div class="row">
+                    <h2 class="mt-5">Title</h2>
+                    <div class="mb-3">effetto</div>
+                
+                <div class="col-12 mb-5 px-5 col-md-6 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cupiditate ipsum dolorem, repudiandae, voluptatem ipsa iste corrupti obcaecati quaerat distinctio impedit natus repellendus corporis quo maiores et facere molestias dicta? </div>
+                <div class="col-12 mb-5 px-5 col-md-6 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cupiditate ipsum dolorem, repudiandae, voluptatem ipsa iste corrupti obcaecati quaerat distinctio impedit natus repellendus corporis quo maiores et facere molestias dicta?</div>
+               </div>
             </div>
+         </section>
+         
+         <!-- contatti -->
+         <div class="container contatti">
+             <div class="row">
+                 <h2>Title</h2>
+                 <div>effetto</div>
+                 <div class="block-2 col align-self-center">
+                     testo
+                 </div>
+             </div>
          </div>
        
             
