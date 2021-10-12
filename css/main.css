@@ -4,7 +4,9 @@
 .hero-main {
     color: white;
 }
-
+.info-section {
+    color: white;
+}
 hr {
     height: 10px;
 }
@@ -76,14 +78,23 @@ h2 {
 
 
 /* info-section */
-.background-3 {
-    background: rgb(35, 187, 123);
-}
+
 .info-section {
-    height: 550px;
     text-align: center;
-    color: white;
 }
+.info-section h2 {
+    font-size: 2.4rem;
+}
+  /* button */
+.site-btn-outline-primary {
+    color: rgb(255, 255, 255);
+    border: 1px solid currentColor
+}
+.site-btn-outline-primary:hover {
+    color: white;
+    background-color: rgb(129, 129, 129);
+}
+
 
 /* contatti */
 .contatti {
