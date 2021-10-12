@@ -125,3 +125,10 @@ h2 {
     display: flex;
     justify-content: flex-start;
 } 
+
+/* dove trovarmi */
+.bg-2 {
+    text-align: center;
+    background-color: rgb(48, 48, 78);
+    color: white;
+}
